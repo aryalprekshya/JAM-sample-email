@@ -1,16 +1,17 @@
 function selectLanguage(language) {
   switch (language) {
     case "EN":
-      console.log("English selected");
+      console.log("English");
       break;
 
-    case "FN":
-      console.log("French selected");
+    case "FR":
+      console.log("French");
       break;
 
     default:
-      console.log("Please select either EN or FN");
+      console.log("Please set the variable either EN or FR");
   }
 }
 
+let language = "EN";
 selectLanguage(language);
