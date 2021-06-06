@@ -9,7 +9,7 @@ function selectLanguage(language) {
       break;
 
     default:
-      console.log("Please set the variable either EN or FR");
+      console.log("Please set the language either EN or FR");
   }
 }
 
